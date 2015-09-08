@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
+  <Id>5e4eddd2-2019-4823-ba0d-2e6964e0a7e8</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Mavention</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Sample Office Add-in"/>
+  <Description DefaultValue="Allows for searching for documents in SharePoint Online"/>
+  <Hosts>
+    <Host Name="Document"/>
+    <Host Name="Workbook"/>
+    <Host Name="Presentation"/>
+    <Host Name="Project"/>
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://localhost:8443/index.html"/>
+  </DefaultSettings>
+  <Permissions>ReadDocument</Permissions>
+</OfficeApp>

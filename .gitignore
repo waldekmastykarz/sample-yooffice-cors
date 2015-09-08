@@ -1,0 +1,6 @@
+# system files
+**/.DS_Store
+
+# package files
+**/bower_components
+**/node_modules

@@ -2,7 +2,7 @@
 
 This sample illustrates how to extend an Office Add-in generated using the [Yeoman Office Generator](https://github.com/OfficeDev/generator-office) to connect with Office 365 using ADAL JS and CORS. This sample add-in is a Task Pane Add-in that allows you to search for documents in SharePoint Online directly from Office client applications. 
 
-This sample is based on the documentation provided with the Office Generator repo at [https://github.com/OfficeDev/generator-office/blob/master/docs/adal-config.md]().
+This sample is based on the documentation provided with the Office Generator repo at [https://github.com/OfficeDev/generator-office/blob/master/docs/adal-config.md](https://github.com/OfficeDev/generator-office/blob/master/docs/adal-config.md).
 
 ## Running this sample
 

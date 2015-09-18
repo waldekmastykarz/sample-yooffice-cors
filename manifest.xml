@@ -6,6 +6,11 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Sample Office Add-in"/>
   <Description DefaultValue="Allows for searching for documents in SharePoint Online"/>
+  <AppDomains>
+    <AppDomain>https://login.windows.net</AppDomain>
+    <AppDomain>https://login.microsoftonline.net</AppDomain>
+    <AppDomain>https://login.microsoftonline.com</AppDomain>
+  </AppDomains>
   <Hosts>
     <Host Name="Document"/>
     <Host Name="Workbook"/>
